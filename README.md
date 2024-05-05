@@ -8,7 +8,7 @@ Before each commit check wheter environment.yaml file needs to be updated.
 - **conda env export > environment.yml**
 
 - after creation check if last line in environment.yml file looks like this :
-    - prefix: **C:\Users\Matej\anaconda3\envs\neumre_projekt** and remove it
+    - prefix: **C:\Users\Mateja\anaconda3\envs\neumre_projekt** and remove it
 
 **Create environment** from environment.yaml file with following command :
 
@@ -23,9 +23,3 @@ Before each commit check wheter environment.yaml file needs to be updated.
 Spatial enrichment runs for **90 minutes**, so using premade datasets in dataset folder is prefered.
 
 Joining **deliverytime_with_route_lengths** and **city_basic_stats datasets** results in most spatial information.
-
-### **Full dataset**
-Due to the limitation of the size of the project's submission, the final dataset that has been processed and enriched with spatial data can be found at the following link: https://ferhr-my.sharepoint.com/:u:/g/personal/mz53039_fer_hr/EU7rvABVRX9Lp-1qUUh6QwUBi8PbvMID08ZBaAjtWUty0A?e=G7mmRZ
-
-### **Github project link**
-https://github.com/DavIvek/NeuronskeMrezeProjekt
